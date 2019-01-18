@@ -110,5 +110,11 @@ export default {
 .tab .tab-item > .active {
     color: rgb(240, 20, 20);
 }
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
 
 </style>
